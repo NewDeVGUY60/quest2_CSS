@@ -1,0 +1,38 @@
+/* start the body size and color  */
+body{
+    width: 800px;
+    background-color:ivory;
+    margin: auto;
+}
+/* styles of nav bar  */
+nav{
+    max-width: 100%;
+}
+nav li{
+    list-style: none;
+    padding: 5px;
+}
+nav li:nth-child(odd){
+    background-color: #5c5959;
+    color: rgb(211, 186, 186);
+}
+nav li:nth-child(even){
+    background-color: #d9d5d5;
+    color: black;
+}
+nav ul{
+    display: flex;
+}
+.find{
+    width: 20%;
+    text-align: center;
+}
+.fellow{
+    width: 10%;
+    text-align: center;
+}
+.contact{
+    width: 70%;
+    padding: 5px 5px 5px 15px;
+    text-align: left;
+}
