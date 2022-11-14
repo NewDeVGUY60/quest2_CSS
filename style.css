@@ -64,3 +64,21 @@ h2{
 strong{
     font-size: 1.5em;
 }
+
+/* Box "fellow" section sizing and flex  */
+
+.box_article_1,.box_article_2,.box_article_3{
+    width: 32.5%;
+    padding-bottom: 200px;
+    background-color:#ececec;
+}
+
+.box_article{
+    margin: auto;
+    display: flex;
+    max-width: 98%;
+    justify-content: space-between;
+}
+
+
+
