@@ -1,6 +1,6 @@
 /* start the body size and color  */
 body{
-    width: 800px;
+    width: 700px;
     background-color:ivory;
     margin: auto;
     padding: 5px;
@@ -54,7 +54,6 @@ nav ul{
 .box-fellow{
     max-width: 100%;
     text-align: center;
-
     font-family:  Calibri, 'Trebuchet MS';
     font-weight: 700;
 }
@@ -69,7 +68,7 @@ strong{
 
 .box_article_1,.box_article_2,.box_article_3{
     width: 32.5%;
-    padding-bottom: 200px;
+    padding-bottom: 250px;
     background-color:#ececec;
 }
 
@@ -80,5 +79,27 @@ strong{
     justify-content: space-between;
 }
 
+/* moduled the formular */
 
-
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 98%;
+    border-top: 2px solid #5c5959;
+    margin-top: 50px;
+}
+.form_contact{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS';
+    color:#5c5959;
+}
+.form_email,.form_text,.form_text2,.form_textaera{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px
+}
+.form_textaera{
+    padding-bottom: 100px;
+}
