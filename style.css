@@ -3,6 +3,7 @@ body{
     width: 800px;
     background-color:ivory;
     margin: auto;
+    padding: 5px;
 }
 /* styles of nav bar  */
 nav{
@@ -36,3 +37,12 @@ nav ul{
     padding: 5px 5px 5px 15px;
     text-align: left;
 }
+
+/* parametre carousel  */
+
+.carousel{
+    max-width: 100%;
+    background-color: #ececec;
+    padding-bottom: 200px;
+}
+
